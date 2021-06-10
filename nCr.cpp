@@ -4,7 +4,7 @@ using namespace std;
 #define ul unsigned long int
 
 
-#function to calculate nCr
+//function to calculate nCr
 
 ul nCr(ul n,ul r)
 {
