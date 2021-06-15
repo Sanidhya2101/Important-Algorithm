@@ -5,6 +5,8 @@ using namespace std;
 #define ll long long int
 #define ul long long int
 
+//use of list to keep track of maximum
+
 vector<int> getmax(vector<int>& a,int k)
 {
     vector<int> ans;
