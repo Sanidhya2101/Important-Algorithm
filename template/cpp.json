@@ -1,0 +1,96 @@
+
+{
+	"include":{
+		"prefix":"include",
+		"body":[
+			"#include<bits/stdc++.h>",
+			"using namespace std;",
+			 "\n",
+			 
+			"#define ul unsigned long long int",
+			"#define ll long long int",
+			"#define ld long double",
+			 "\n",
+			 
+			"#define tc ll t;cin>>t;while(t--)",
+			 "\n",
+			 
+			"#define fp(i,a,b) for(ll i=a;i<b;i++)",
+			"#define fm(i,a,b) for(ll i=a;i>=b;i--)",
+			"#define tr(i,a) for(auto i=a.begin();i!=a.end();i++)",
+			 "\n",
+			 
+			"#define sort(a) sort(a.begin(),a.end())",
+			"#define sort(a,c) sort(a.begin(),a.end(),c)",
+			"#define reverse(a) reverse(a.begin(),a.end())",
+			 "\n",
+			 
+			"#define pr2(a) cout<<a<<endl",
+			"#define pr1(a) cout<<a<<\" \"", 
+			"#define Yes pr2(\"Yes\")",
+			"#define YES pr2(\"YES\")",
+			"#define No pr2(\"No\")",
+			"#define NO pr2(\"NO\")",
+			"#define google(x, y) cout << \"Case #\" << x << \": \" << y;",
+			 "\n",
+			 
+			 
+			 
+			"typedef pair<int,int> pii;",
+			"typedef pair<ll,ll> pll;",
+			"typedef pair<string,int> psi;",
+			"typedef pair<char,int> pci;",
+			 "\n",
+			 
+			"typedef vector<int> vi;",
+			"typedef vector<ll> vll;",
+			"typedef vector<pii> vpii;",
+			"typedef vector<pll> vpll;",
+			"typedef vector<char> vc;",
+			"typedef vetor<string> vs",
+			"typedef vector<vi> vvi;",
+			"typedef vector<vc> vvc;",
+			 "\n",
+			 
+			"const ll mod = 1e9+7;",
+			"const ll MAX_SIZE=1e5+1;",
+			 "\n",
+
+			"//code here",
+			"void code(){",
+			"\ttc{",
+			
+			"\t\t$0",
+
+			"\t}",
+			"}",
+			"\n",
+	 
+	 
+	 
+		"int main()",
+		"{",
+	   		"ios_base::sync_with_stdio(false);",
+	   		"cin.tie(NULL);",
+	   		"cout.tie(NULL);",
+	   		"code();",
+		"}"
+		]
+	},
+
+	"simple":{
+		"prefix": "simple",
+		"body": [
+			"#include<bits/stdc++.h>",
+			"using namespace std;",
+			"\n",
+			"#define ll long long int",
+			"#define ul unsigned long int",
+			"\n",
+			"int main()",
+			"{",
+			"\t$0",
+			"}"
+		]
+	}
+}
