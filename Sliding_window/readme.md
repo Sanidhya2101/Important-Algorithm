@@ -7,6 +7,6 @@
 5. [Longest subarray of sum k](./longest_subarray_sumk.cpp)
 6. [Longest substring with k unique charachter](./longest_substring_with_k_unique.cpp)
 7. [Maximum of all subarray](./maximum_of_all_subarray.cpp)
-8. [Minimum window substring](./minimum_window_substring).cpp)
+8. [Minimum window substring](./minimum_window_substring.cpp)
 9. [Pick toys(interview question)](./pick_toys.cpp)
 10. [Print k distinct element subarray](./print_k_distinct_element_subarray.cpp)
