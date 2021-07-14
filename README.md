@@ -8,4 +8,5 @@
 6. [Binary Search problems](./Binary_Search)
 7. [Heap problems](./Heap)
 8. [Median of Median algorithm](./median_of_median.cpp)
+9. [Tree](./Tree)
 
