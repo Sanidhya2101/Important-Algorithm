@@ -11,18 +11,18 @@ ul nCr(ul n,ul r)
     if(n-r<r)
     r=n-r;
 
+    if(r==0)
+    return 1;
+
     ul numerator=1;
     ul denominator=1;
-
-    if(r==0)
-    return n;
 
     while(r)
     {
         numerator*=n;
         denominator*=r;
 
-        ul tmp = __gcd(numerator,denominator);
+        ul tmp=__gcd(denominator,numerator);
 
         numerator/=tmp;
         denominator/=tmp;
@@ -32,10 +32,7 @@ ul nCr(ul n,ul r)
     }
 
     return numerator;
-
-    
 }
-
 
 int main()
 {
