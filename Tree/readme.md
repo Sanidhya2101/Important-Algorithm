@@ -5,3 +5,4 @@
 3. [Postorder Traversal](./postorder_traversal.cpp)
 4. [Preorder Traversal](./pre_order_traversal.cpp)
 5. [Postorder from Preorder and Inorder](./postorder_from_preorder_and_inorder.cpp) 
+6. [BST](./BST)
