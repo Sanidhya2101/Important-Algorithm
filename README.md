@@ -11,4 +11,5 @@
 9. [Tree](./Tree)
 10. [Graph](./Graphs)
 11. [Recursion](./Recursion)
+12. [Bit Manipulation](./Bit_manipulation)
 

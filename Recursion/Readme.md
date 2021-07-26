@@ -7,3 +7,6 @@
 5. [kth Symbol of the grammar](./kth_symbol_grammar.cpp)
 6. [Print subset of string](./subsets_string.cpp)
 7. [Tower of Hanoi](./Tower_of_hanoi.cpp)
+8. [Permutation with Spaces](./permutation_with_spaces.cpp)
+9. [Permutation with case change](./permutation_with_case_change.cpp)
+10. [Generate All Balance Parenthesis](./generate_all_balance_parenthesis.cpp)
