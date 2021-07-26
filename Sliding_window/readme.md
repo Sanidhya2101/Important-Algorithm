@@ -1,7 +1,7 @@
 # Sliding Window
 
 1. [Find occurances of anagram](./find_anagram.cpp)
-2. [Find first negative in a window](./find_negative_integer.cpp)
+2. [Find first negative in a window](./first_negative_integer.cpp)
 3. [Sliding window maximum](./sliding_window_maximum.cpp)
 4. [Find longest non-repeating substring](./longest_norepeating_substring.cpp)
 5. [Longest subarray of sum k](./longest_subarray_sumk.cpp)
