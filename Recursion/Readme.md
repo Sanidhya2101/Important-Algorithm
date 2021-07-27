@@ -10,3 +10,5 @@
 8. [Permutation with Spaces](./permutation_with_spaces.cpp)
 9. [Permutation with case change](./permutation_with_case_change.cpp)
 10. [Generate All Balance Parenthesis](./generate_all_balance_parenthesis.cpp)
+11. [Joshephus Problem](./joshephus_problem.cpp)
+12. [N binary number having more one than zero in prefix](./n_bit_binary_with_prefix_having_1_more.cpp)

@@ -12,4 +12,5 @@
 10. [Graph](./Graphs)
 11. [Recursion](./Recursion)
 12. [Bit Manipulation](./Bit_manipulation)
+13. [Backtracking](./Backtracking)
 
