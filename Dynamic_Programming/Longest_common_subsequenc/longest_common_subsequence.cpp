@@ -103,7 +103,7 @@ string getsubsequence(string a,string b)
     int i=n;
     int j=m;
 
-    while(i>=0 && j>=0)
+    while(i>0 && j>0)
     {
         if(a[i-1]==b[j-1])
         {
