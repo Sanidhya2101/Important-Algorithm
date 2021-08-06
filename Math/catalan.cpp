@@ -76,5 +76,5 @@ int main()
     ll n;
     cin>>n;
 
-    cout<<catalan_rec(n)<<" "<<catalan_dp(n)<<" "<<catalan_bin(n)<<" ";
+    cout<<catalan_bin(n)<<" ";
 }
