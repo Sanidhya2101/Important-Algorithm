@@ -6,3 +6,4 @@
 4. [Target Sum](./target_sum.cpp)
 5. [Count Subset Of a given sum](./count_subset_of_a_given_sum.cpp)
 6. [Count Subset with given sum difference](./count_subset_with_given_sum_diff.cpp)
+7. [Possibility of Divisibility](./possibility_of_divisibility.cpp)
