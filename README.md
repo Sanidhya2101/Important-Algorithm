@@ -1,6 +1,6 @@
 # Important-Algorithm
 
-1. [Math Algorithm](./nCr.cpp)
+1. [Math Algorithm](Math)
 2. [Sliding Window problems](./Sliding_window)
 3. [1 to n problems](./1_to_n_problems)
 4. [Stack problems](./stack_problem)
@@ -14,4 +14,5 @@
 12. [Bit Manipulation](./Bit_manipulation)
 13. [Backtracking](./Backtracking)
 14. [Dynamic Programming](./Dynamic_Programming)
+15. [String](./String)
 

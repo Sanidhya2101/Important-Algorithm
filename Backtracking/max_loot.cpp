@@ -29,7 +29,7 @@ int main()
     cin>>n>>m;
 
     vector<vector<int>> v(n,vector<int>(m));
-    vector<vector<bool>> vis(n,vector<bool>(m));
+    vector<vector<bool>> vis(n,vector<bool>(m,false));
 
     for(int i=0;i<n;i++)
     for(int j=0;j<m;j++)
