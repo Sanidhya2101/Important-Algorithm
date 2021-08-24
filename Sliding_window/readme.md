@@ -10,3 +10,4 @@
 8. [Minimum window substring](./minimum_window_substring.cpp)
 9. [Pick toys(interview question)](./pick_toys.cpp)
 10. [Print k distinct element subarray](./print_k_distinct_element_subarray.cpp)
+11. [Longest Triangular Subsequence](./longest_triangular_subsequence.cpp)

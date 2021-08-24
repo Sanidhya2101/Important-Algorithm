@@ -5,3 +5,4 @@
 3. [Check if Graph is Bipartite](./Bipartite_graph.cpp)
 4. [Check if graph contains cycle](./check_cycle.cpp)
 5. [Hamiltonian Path](./Hmailton_path.cpp)
+6. [Count Number of Islands](./count_number_of_island.cpp)
