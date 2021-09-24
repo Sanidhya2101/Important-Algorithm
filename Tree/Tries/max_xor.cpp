@@ -55,7 +55,7 @@ int getmaxxor(vector<int> b,node* root)
             else
             {
                 curr=curr<<1;
-                curr=curr|1;
+                curr=curr|0;
                 tmp=tmp->next[bit?0:1];
             }
         }
