@@ -15,55 +15,33 @@ int getanagram(string s,string p)
     unordered_map<char,int> m;
     unordered_map<char,int> x;
 
-    int i=0;
+    int i=0,j=0;
+
+    while(j<p.size())
+    {
+        m[s[j]]++;
+        x[p[j]]++;
+        j++;
+    }
+    j--;
+
     int cnt=0;
 
-    for(int i=0;i<p.size();i++)
+    while(j<s.size())
     {
-        m[p[i]]++;
-        x[p[i]]++;
-    }
+        if(m==x)
+        cnt++;
 
-    i=0;
+        j++;
 
-    int q=m.size();
+        if(j!=s.size())
+        m[s[j]]++;
 
-    for(int j=0;j<s.size();j++)
-    {
-        if(j-i+1<p.size())
-        {
-            if(x[s[j]]!=0)
-            {
-                m[s[j]]--;
-                
-                if(m[s[j]]==0)
-                q--;
-            }
+        m[s[i]]--;
+        if(m[s[i]]==0)
+        m.erase(s[i]);
 
-
-        }
-        else if(j-i+1==p.size())
-        {
-            if(x[s[j]]!=0)
-            {
-                m[s[j]]--;
-
-                if(m[s[j]]==0)
-                q--;
-            }
-
-
-            if(q==0)
-            cnt++;
-
-            if(x[s[i]]!=0)
-            {
-                m[s[i]]++;
-                if(m[s[i]]!=0)
-                q++;
-            }
-            i++;
-        }
+        i++;
     }
 
     return cnt;
