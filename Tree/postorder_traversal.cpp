@@ -57,7 +57,13 @@ void postorder_traversal_itr(node* root)
         root=stacknode.top();
         stacknode.pop();
 
-        if(root->right==stacknode.top())
+        if(root==stacknode.top())
+        {
+            stacknode.pop();
+            cout<<root->data;
+            root=NULL;
+        }
+        else if(root->right==stacknode.top())
         {
             stacknode.pop();
             stacknode.push(root);
