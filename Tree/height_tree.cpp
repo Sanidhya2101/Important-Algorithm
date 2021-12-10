@@ -57,7 +57,7 @@ Node* remove_null(Node* root)
 int get_height(Node* root)
 {
     if(root==NULL)
-    return 1;
+    return 0;
 
     int l=get_height(root->left);
     int r=get_height(root->right);
@@ -74,7 +74,9 @@ int main()
     queue<Node*> q;
     while(cin>>s)
     {
-        if(s=="null")
+        if(s=="quit")
+        break;
+        else if(s=="null")
         root = insert_node(root,INT_MAX,q);
         else
         root = insert_node(root,stoi(s),q);
@@ -84,5 +86,7 @@ int main()
     
     cout<<get_height(root);
     
+    //pre_order_traversal_rec(root);
+
     return 0;
 }
