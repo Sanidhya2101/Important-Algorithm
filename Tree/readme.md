@@ -8,6 +8,7 @@
 6. [Postorder from Preorder and Inorder](./postorder_from_preorder_and_inorder.cpp) 
 7. [Diameter of the tree](./diameter_of_tree.cpp)
 8. [Depth of Generic Trees](./generic_trees.cpp)
-9. [BST](./BST)
-10. [Tries](./Tries)
+9. [Minimum Height of trees](./minimum_height_tree.cpp)
+10. [BST](./BST)
+11. [Tries](./Tries)
 
