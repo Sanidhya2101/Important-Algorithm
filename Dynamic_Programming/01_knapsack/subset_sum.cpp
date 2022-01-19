@@ -37,7 +37,7 @@ int main()
 
             else if(a[i-1]<=j)
             {
-                v[i][j]=(v[i][j-a[i-1]]|v[i-1][j]);
+                v[i][j]=(v[i-1][j-a[i-1]]|v[i-1][j]);
             }
             else
             v[i][j]=v[i-1][j];
