@@ -11,11 +11,14 @@ int getans(vector<int> a)
 {
     int n=a.size();
 
+    if(n==1)
+    return 0;
+
     vector<int> dp(n,INT_MAX);
 
     dp[0]=0;
 
-    for(int i=1;i<n;i++)
+    for(int i=0;i<n;i++)
     {
         for(int j=i+1;j<n && j<=i+a[i];j++)
         {

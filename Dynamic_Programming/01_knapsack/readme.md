@@ -7,3 +7,8 @@
 5. [Count Subset Of a given sum](./count_subset_of_a_given_sum.cpp)
 6. [Count Subset with given sum difference](./count_subset_with_given_sum_diff.cpp)
 7. [Possibility of Divisibility](./possibility_of_divisibility.cpp)
+8. [House Robber](./house_robber.cpp)
+9. [Largest subarray with positive product](./largest_subarray_with_positive_product.cpp)
+10. [Maximum sum subarray circular](./maximum_sum_subarray_circular.cpp)
+11. [Minimum step cost](./min_step_cost.cpp)
+12. [Jump Game Problems](./Jump Game)
