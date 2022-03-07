@@ -11,4 +11,3 @@
 9. [Largest subarray with positive product](./largest_subarray_with_positive_product.cpp)
 10. [Maximum sum subarray circular](./maximum_sum_subarray_circular.cpp)
 11. [Minimum step cost](./min_step_cost.cpp)
-12. [Jump Game Problems](./Jump Game)
