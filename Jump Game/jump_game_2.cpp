@@ -34,6 +34,34 @@ int getans(vector<int> a)
 }
 
 
+int getminpath(vector<int> a)
+{
+    int n=a.size();
+    vector<int> dp(n+1,INT_MAX);
+    dp[n]=0;
+
+    for(int i=n-1;i>=0;i--)
+    {
+        if(a[i]!=0)
+        {
+            int mi=INT_MAX;
+            for(int j=1;j<=a[i] && j+i<n+1;j++)
+            {
+                if(dp[i+j]!=INT_MAX)
+                mi=min(mi,dp[i+j]);
+            }
+
+            if(mi!=INT_MAX)
+            dp[i]=mi+1;
+            else
+            dp[i]=INT_MAX;
+        }
+    }
+
+    return dp[0];
+}
+
+
 int main()
 {
     int n;
@@ -46,5 +74,5 @@ int main()
         cin>>a[i];
     }
 
-    cout<<getans(a);
+    cout<<getans(a)<<" "<<getminpath(a);
 }
