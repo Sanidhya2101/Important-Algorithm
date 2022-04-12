@@ -8,3 +8,4 @@
 6. [Minimum Insertion to Make a string palindrome](./min_insertion_to_make_palindrome.cpp)
 7. [Sequence Pattern Matching](./sequence_pattern_matching.cpp)
 8. [Shortest Common Subsequence](./shortest_common_subsequence.cpp)
+9. [a+b+c+ type subsequence](./a%2Bb%2Bc%2B.cpp)
