@@ -37,7 +37,7 @@ void knightTour(vector<vector<int>>& chess,int n,int row,int col,int move)
     knightTour(chess,n,row-2,col-1,move+1);
 
     chess[row][col]=0;
-    
+
 
 }
 
