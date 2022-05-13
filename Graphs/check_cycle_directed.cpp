@@ -27,6 +27,51 @@ bool DFS_check(int s,vector<int> a[],vector<int> &v,vector<int> &recursionstack)
     return false;
 }
 
+
+bool bfs(vector<int> a[],int n)
+{
+    vector<int> indeg(n+1,0);
+
+    for(int i=1;i<=n;i++)
+    {
+        for(auto x:a[i])
+        {
+            indeg[x]++;
+        }
+    }
+
+    queue<int> q;
+
+    for(int i=1;i<=n;i++)
+    {
+        if(indeg[i]==0)
+        q.push(i);
+    }
+
+    int cnt=0;
+
+    while(!q.empty())
+    {
+        int p=q.front();
+        q.pop();
+
+        cnt++;
+
+        for(auto x:a[p])
+        {
+            indeg[x]--;
+            if(indeg[x]==0)
+            q.push(x);
+        }
+    }
+
+    if(cnt==n)
+    return 1;
+
+    return 0;
+}
+
+
 int main()
 {
     int n;
@@ -68,4 +113,8 @@ int main()
     cout<<"YES";
     else
     cout<<"NO";
+
+    cout<<"\n";
+
+    cout<<bfs(a,n);
 }
