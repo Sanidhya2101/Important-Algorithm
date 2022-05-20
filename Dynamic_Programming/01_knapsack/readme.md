@@ -11,3 +11,7 @@
 9. [Largest subarray with positive product](./largest_subarray_with_positive_product.cpp)
 10. [Maximum sum subarray circular](./maximum_sum_subarray_circular.cpp)
 11. [Minimum step cost](./min_step_cost.cpp)
+12. [Paint Fence](./paint_fence.cpp)
+13. [Paint House](./paint_house.cpp)
+14. [Possibility of Divisibility](./possibility_of_divisibility.cpp)
+15. [Patition into subsets](./partition_into_subsets.cpp)

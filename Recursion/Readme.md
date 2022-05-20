@@ -12,3 +12,4 @@
 10. [Generate All Balance Parenthesis](./generate_all_balance_parenthesis.cpp)
 11. [Joshephus Problem](./joshephus_problem.cpp)
 12. [N binary number having more one than zero in prefix](./n_bit_binary_with_prefix_having_1_more.cpp)
+13. [Abbreviation using Backtracking](./Abbreviation%20Using%20Backtracking.cpp)

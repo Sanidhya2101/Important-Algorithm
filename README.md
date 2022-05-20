@@ -17,4 +17,6 @@
 15. [Dynamic Programming](./Dynamic_Programming)
 16. [String](./String)
 17. [Convex Hull](./Convex_HULL)
+18. [Jump Game](./Jump%20Game/)
+19. [Buy and Sell Stock](./Buy%20and%20sell%20stock/)
 
