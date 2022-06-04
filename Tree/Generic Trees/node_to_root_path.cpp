@@ -1,10 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-/*
-24
-10 20 50 -1 60 -1 -1 30 70 -1 80 110 -1 120 -1 -1 90 -1 -1 40 100 -1 -1 -1
-*/
+
+#define ll long long int
+#define ul unsigned long int
 
 
 struct Node
@@ -49,42 +48,25 @@ Node* construct(vector<int> a)
     return root;
 }
 
-void traversals(Node *node)
-{
-    if(node==NULL)
-    return;
 
-    cout<<"Node Pre "<<node->data<<"\n";
+vector<int> node_to_rootpath(Node* node,int data)
+{
+    if(node->data==data)
+    {
+        return {node->data};
+    }
 
     for(auto child:node->children)
     {
-        cout<<"Edge Pre "<<node->data<<"--"<<child->data<<"\n";
-        traversals(child);
-        cout<<"Edge Post "<<node->data<<"--"<<child->data<<"\n";
+        vector<int> a=node_to_rootpath(child,data);
+        if(a.size()>0)
+        {
+            a.push_back(node->data);
+            return a;
+        }
     }
 
-    cout<<"Node Post "<<node->data<<"\n";
-    
-}
-
-void levelorder(Node *node)
-{
-    queue<Node*> q;
- 
-    q.push(node);
-
-    while(!q.empty())
-    {
-        Node* tmp=q.front();
-        q.pop();
-
-        cout<<tmp->data<<" ";
-
-        for(auto child:tmp->children)
-        {
-            q.push(child);
-        }
-    }    
+    return {};
 }
 
 int main()
@@ -99,8 +81,11 @@ int main()
         cin>>a[i];
     }    
 
-    
+    int data;
+    cin>>data;
+
     Node* root = construct(a);
+
 
 
 }
