@@ -5,6 +5,8 @@ using namespace std;
 #define ll long long int
 #define ul unsigned long int
 
+//https://leetcode.com/problems/k-closest-points-to-origin/
+
 int mul(int a,int b)
 {
     return a*a+b*b;
