@@ -5,6 +5,8 @@ using namespace std;
 #define ll long long int
 #define ul unsigned long int
 
+//https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/
+
 int subset(vector<int> a,int k)
 {
     int n=a.size();
