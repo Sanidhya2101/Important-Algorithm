@@ -8,6 +8,7 @@ using namespace std;
 typedef pair<int,pair<int,string>> piis;
 
 
+//O((V+E)log(V))
 
 int main()
 {

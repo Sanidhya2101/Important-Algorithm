@@ -11,3 +11,6 @@
 9. [Search in Bitonic Array](./bitonic_search.cpp)
 10. [Search in Sorted Matrix](./search_sorted_matrix.cpp)
 11. [Allocate Minimum Pages](./allocate_min_page.cpp)
+12. [Median of two sorted array](./median_of_two_sorted_array.cpp)
+13. [nth magical number](./nth_magical_number.cpp)
+14. [Number of times array rotated](./number_of_times_array_rotated.cpp)

@@ -19,4 +19,6 @@
 17. [Convex Hull](./Convex_HULL)
 18. [Jump Game](./Jump%20Game/)
 19. [Buy and Sell Stock](./Buy%20and%20sell%20stock/)
+20. [Segment Tree](./Segment%20Tree/)
+21. [Minimum Falling Path Sum](./minimum_falling_path_sum/)
 

@@ -62,6 +62,43 @@ int getpartition_memoization(string s,int i,int j)
     return dp[i][j]=ans;
 }
 
+//top-down approach
+int minCut(string s) {
+        int n=s.size();
+        vector<vector<bool>> ispal(n,vector<bool>(n,false));
+        
+        for(int g=0;g<n;g++)
+        {
+            for(int i=0,j=g;j<n;i++,j++)
+            {
+                if(g==0)
+                    ispal[i][j]=true;
+                else if(g==1)
+                    ispal[i][j]=(s[i]==s[j]);
+                else
+                    ispal[i][j]=((s[i]==s[j])&&ispal[i+1][j-1]);
+            }
+        }
+        vector<int> dp(n,0);
+    
+        for(int j=1;j<n;j++)
+        {
+            if(ispal[0][j])
+            {
+                dp[j]=0;
+                continue;
+            }
+            int mi=INT_MAX;
+            for(int i=j;i>=1;i--)
+            {
+                if(ispal[i][j])
+                mi=min(mi,dp[i-1]+1);
+            }
+            dp[j]=mi;
+        }
+        return dp[n-1];
+    }
+
 
 int main()
 {
