@@ -7,7 +7,6 @@ class SegmentTree{
     vector<int> a;
 
     public:
-
     SegmentTree(int n,vector<int> &arr)
     {
         a=arr;
@@ -33,7 +32,7 @@ class SegmentTree{
 
     int query(int node,int start,int end,int l,int h)
     {
-        
+         
         if(end<l || h<start)
         return INT_MIN;
         if(start==end)
